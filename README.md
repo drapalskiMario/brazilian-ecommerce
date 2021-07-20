@@ -17,8 +17,8 @@ Início 10/07/2021
 
 ## TODO List
 ### > Página inicial com vitrine de produtos, com filtro de departamento, seção ou categoria de produto.
-- [ ] Selecionar produtos e imagens do produtos e logo da empresa
-- [ ] Criar estrutura HTML base da Página (cabecalho, navegação, conteudo, rodapé)
+- [x] Selecionar produtos e imagens do produtos e logo da empresa
+- [x] Criar estrutura HTML base da Página (cabecalho, navegação, conteudo, rodapé)
 - [ ] Cabeçalho - adicionar as tags, textos e logo no cabeçalho, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Navegação - adicionar as tags, listagem de departamentos, campo de busca, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Conteudo - adicionar as tags, breve texto de descrição do produto, valores, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
