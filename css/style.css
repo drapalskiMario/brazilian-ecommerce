@@ -72,6 +72,11 @@ video {
     background-color: #ffffff;
     border-bottom: 25px solid #8c52ff;
   }
+
+  .announcement > p {
+    color: #767b83;
+    font-size: large !important;
+  }
 }
 
 .promo {
@@ -90,10 +95,18 @@ video {
 }
 
 .carousel-item img {
-  max-height: 500px;
-  height: auto;
+  height: 315px;
 }
 
-.fa-chevron-left, .fa-chevron-right {
+.fa-chevron-left, .fa-chevron-right, .fa-star {
   color: #8c52ff;
+}
+
+.announcement > p {
+  color: #767b83;
+  font-size: small;
+}
+
+.card-footer > strong {
+  color: #767b83;
 }

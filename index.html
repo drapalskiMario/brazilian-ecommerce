@@ -22,7 +22,7 @@
         <div class="container">
 
           <!--Logo-->
-          <video class="navbar-brand" src="./images/logo.mp4" autoplay loop></video>
+          <video class="navbar-brand" src="./images/header/logo.mp4" autoplay loop></video>
 
           <!--Menu Hamburguer-->
           <button class="navbar-toggler navbar-dark text-white p-4" type="button" data-bs-toggle="collapse">
@@ -108,55 +108,202 @@
       </div>
       </nav>
     </div>
-    <!--Carosel-->
+    <!--Slider-->
   </header>
   <section>
-    <div id="slider" class="container">
-      <div id="carousel-captions" class="carousel slide" data-bs-ride="carousel">
+    <div id="slider" class="container navbar-expand-lg">
+      <div id="carousel-captions" class="carousel slide collapse navbar-collapse" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/smartphone.jpg" class="d-block w-100" alt="Foto de celular">
+            <img src="./images/header/smartphone-min.jpg" class="d-block w-100" alt="Foto de celular">
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src="./images/pc.jpg" class="d-block w-100" alt="Foto de um computador">
+            <img src="./images/header/pc-min.jpg" class="d-block w-100" alt="Foto de um computador">
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src="./images/notebook.jpg" class="d-block w-100" alt="Foto de um notebook e celular">
+            <img src="./images/header/notebook-mini.jpg" class="d-block w-100" alt="Foto de um notebook e celular">
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-captions"
-          data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-captions" data-bs-slide="prev">
           <span><i class="fas fa-chevron-left fa-5x"></i></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-captions"
-          data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-captions" data-bs-slide="next">
           <span><i class="fas fa-chevron-right fa-5x"></i></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </div>
   </section>
-  <section>
-    <div id="new-products"></div>
-  </section>
-  <section>
-    <div id="hot-deal"></div>
-  </section>
-  <section>
-    <div id="top-selling"></div>
-  </section>
+
+  <main>
+    <div class="container">
+      <hr>
+      <!--Anúncio-->
+      <div class="d-flex justify-content-center announcement">
+        <p class="LEAD"><strong>AQUI VOCÊ ENCONTRA AS MELHORES PROMOÇÕES!</strong></p>
+      </div>
+      <hr>
+    </div>
+
+    <!--Lista de Produtos Responsiva-->
+    <section>
+      <div id="products" class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/celular-01.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Smartphone Mock 128gb 4g Wi-Fi Tela 6.5'' Dual Chip 4gb Ram</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 899,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/notebook-01.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Notebook Mock SSD 248gb 8gb de Memória Ram Tela 17''</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 2.499,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/fone-01.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Fone de Ouvido Sem Fio Bluetooth Mock - bateria para até 18 Horas</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 249,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/notebook-02.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Notebook Mock SSD 248gb 8gb de Memória Ram Tela 17''</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 4.599,99</strong></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Segundo Anúncio-->
+    <div class="container">
+      <hr>
+      <div class="d-flex justify-content-center announcement">
+        <p class="LEAD"><strong>AQUI VOCÊ ENCONTRA OS MELHORES PRODUTOS!</strong></p>
+      </div>
+      <hr>
+    </div>
+
+    <!--Segunda lista de produtos responsiva-->
+    <section>
+      <div id="products" class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/celular-02.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Smartphone Mock 128gb 4g Wi-Fi Tela 6.5'' Dual Chip 4gb Ram</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 1.599,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/fone-02.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Fone de Ouvido Sem Fio Bluetooth Mock - bateria para até 18 Horas</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 199,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/notebook-01.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Notebook Mock SSD 248gb 8gb de Memória Ram Tela 17''</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 2.799,99</strong></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-strecht mt-3 mb-3">
+            <div class="card">
+              <img src="./images/products/computer.png" alt="">
+              <div class="card-header">
+                <p class="card-text lead">Computador Completo Mock Dual Core 4GB HD 500GB Monitor 19.5"</p>
+              </div>
+              <div class="card-body">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="card-footer h5"><strong>R$ 1799,99</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
   <section>
     <div id="newsletter"></div>
   </section>
