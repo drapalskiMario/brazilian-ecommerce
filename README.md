@@ -37,3 +37,7 @@ Início 10/07/2021
 - [ ] Conteudo quem somos - adicionar as tags, elaborar texto "contato", adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Conteudo contato - adicionar as tags, elaborar texto "contato", adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Rodapé - adicionar as tags, texto e adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
+
+
+
+Teste
