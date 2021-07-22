@@ -27,7 +27,7 @@ Início 10/07/2021
 ### > Página com detalhes do produto, com fotos, descrição completa, preço, condições de pagamento.
 - [x] Selecionar imagens do produtos
 - [x] Criar estrutura HTML base da Página (cabecalho, conteudo, rodapé)
-- [ ] Cabeçalho - adicionar as tags, textos e logo no cabeçalho, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
+- [x] Cabeçalho - adicionar as tags, textos e logo no cabeçalho, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Conteudo - adicionar as tags, texto de descrição completa do produto, valores, condições de pagamento, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Rodapé - adicionar as tags, texto e adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 
