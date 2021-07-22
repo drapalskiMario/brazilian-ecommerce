@@ -13,6 +13,10 @@ video {
   height: auto;
 }
 
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, 
+.navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: space-around;
+}
 
 .navbar-toggler {
   border-color: #ffffff;
@@ -109,4 +113,25 @@ video {
 
 .card-footer > strong {
   color: #767b83;
+}
+
+#top-footer {
+  background-color: #767b83;
+}
+
+#top-footer h6 {
+  color: #fff;
+}
+
+#top-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#bottom-footer {
+  background-color: #8c52ff;
+}
+
+#footer-text {
+  color: #ffffff;
 }

@@ -20,9 +20,9 @@ Início 10/07/2021
 - [x] Selecionar produtos e imagens do produtos e logo da empresa
 - [x] Criar estrutura HTML base da Página (cabecalho, navegação, conteudo, rodapé)
 - [x] Cabeçalho - adicionar as tags, textos e logo no cabeçalho, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
-- [ ] Navegação - adicionar as tags, listagem de departamentos, campo de busca, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
-- [ ] Conteudo - adicionar as tags, breve texto de descrição do produto, valores, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
-- [ ] Rodapé - adicionar as tags, texto e adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
+- [x] Navegação - adicionar as tags, listagem de departamentos, campo de busca, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
+- [x] Conteudo - adicionar as tags, breve texto de descrição do produto, valores, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
+- [x] Rodapé - adicionar as tags, texto e adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 
 ### > Página com detalhes do produto, com fotos, descrição completa, preço, condições de pagamento.
 - [ ] Selecionar imagens do produtos
