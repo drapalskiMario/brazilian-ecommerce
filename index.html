@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Brazilian Ecommerce</title>
 </head>
+
 <body>
   <header>
-    <div id="top-header"></div>
-    <div id="main-header"></div>
+    <div id="top-header">
+      <!-- Responsividade a partir tamanho médio -->
+      <nav class="navbar navbar-expand-lg navbar-dark top">
+        <div class="container">
+
+          <!--Logo-->
+          <video class="navbar-brand" src="./images/logo.mp4" autoplay loop></video>
+
+          <!--Menu Hamburguer-->
+          <button class="navbar-toggler navbar-dark text-white p-4" type="button" data-bs-toggle="collapse">
+            <a id="cart-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </button>
+          <button class="navbar-toggler navbar-dark text-white p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-toggler">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!--Campo de Pesquisa de Produtos-->
+          <div class="collapse navbar-collapse search">
+            <form class="d-flex form-search">
+              <input class="form-control input-search" type="search"
+                placeholder="Buscar produtos, marcas e muito mais..." aria-label="Search">
+              <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+
+          <!--Itens de Navegação-->
+          <div class="collapse navbar-collapse justify-content-end">
+            <a href="#">
+              <button class="btn btn-itens">
+                <i class="fas fa-sign-in-alt"></i>
+                <p>Login</p>
+              </button>
+            </a>
+            <a href="#">
+              <button class="btn btn-itens">
+                <i class="far fa-heart"></i>
+                <p>Favoritos</p>
+              </button>
+            </a>
+            <a href="#">
+              <button class="btn btn-itens">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Carrinho</p>
+              </button>
+            </a>
+          </div>
+
+        </div>
+      </nav>
+
+      <!--Categorias-->
+      <div id="main-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown">
+                    Categorias
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Notebook</a></li>
+                    <li><a class="dropdown-item" href="#">Celulares</a></li>
+                    <li><a class="dropdown-item" href="#">TV e Vídeo</a></li>
+                    <li><a class="dropdown-item" href="#">Acessórios e eletrônico</a></li>
+                  </ul>
+                </li>
+
+                <!--Promoções, Sobre nós-->
+                <div class="promo"></div>
+                <li class="nav-item dropdown">
+                  <div class="categories">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ofertas do dia !</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cupons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Receba amanhã</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+            </div>
+            </ul>
+          </div>
+      </div>
+      </nav>
+    </div>
+
   </header>
-  <nav id="navigation"></nav>
   <section>
-    <div id="shop-now"></div>
+    <div id="shop-now" class="container"></div>
   </section>
   <section>
     <div id="new-products"></div>
@@ -36,6 +130,9 @@
     <div id="bottom-footer"></div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c7d534d08e.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

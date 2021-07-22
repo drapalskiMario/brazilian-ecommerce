@@ -1,0 +1,90 @@
+body {
+  min-width: 372px;
+}
+
+.top{
+  background-color: #8c52ff;
+}
+
+video {
+  max-width: 140px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+}
+
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler::after {
+  border-color: #ffffff;
+}
+
+#cart-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+.search {
+  width: 600px;
+  height: 60px;
+}
+
+.form-search {
+  width: 600px;
+  height: 50px;
+}
+
+.input-search {
+  border-radius: 1rem 0rem 0rem 1rem;
+  border: 1px solid #fff;
+}
+
+.btn-search {
+  color: #8c52ff;
+  background-color: #ffffff;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+  
+.btn-itens {
+  color: #ffffff;
+  outline: none;
+}
+
+.btn:active, .btn{
+  box-shadow: none !important;
+}
+
+.btn-itens:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+@media (min-width:992px) {
+  #main-header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 25px solid #8c52ff;
+  }
+}
+
+.promo {
+  margin-left: 12vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #767b83;
+  font-size: large;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: underline #8c52ff 3px solid;
+  color: #767b83;
+}
