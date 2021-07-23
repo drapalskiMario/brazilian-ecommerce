@@ -32,7 +32,7 @@ Início 10/07/2021
 - [x] Rodapé - adicionar as tags, texto e adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 
 ### > Página com dados institucionais (“quem somos”, “contato”).
-- [ ] Criar estrutura HTML base da Página (cabecalho, conteudo quem somos, conteudo contato, rodapé)
+- [x] Criar estrutura HTML base da Página (cabecalho, conteudo quem somos, conteudo contato, rodapé)
 - [ ] Cabeçalho - adicionar as tags, textos e logo no cabeçalho, adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Conteudo quem somos - adicionar as tags, elaborar texto "contato", adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
 - [ ] Conteudo contato - adicionar as tags, elaborar texto "contato", adicionar classes de estilização e responsividade com bootstrap e criar estilização complementar com css
