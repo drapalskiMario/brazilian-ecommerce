@@ -104,6 +104,18 @@ video {
   height: 315px;
 }
 
+.link-product {
+  text-decoration: none;
+  color: #767b83;
+  font-size: 1.2rem;
+}
+
+.link-product:hover, .link-product:active {
+  text-decoration: underline;
+  color: #8c52ff;
+}
+
+
 .fa-chevron-left, .fa-chevron-right, .fa-star {
   color: #8c52ff;
 }
@@ -136,6 +148,7 @@ video {
 
 #footer-text {
   color: #ffffff;
+  font-size: 0.85rem;
 }
 
 /* Product Page */
