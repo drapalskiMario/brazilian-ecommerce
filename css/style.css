@@ -100,7 +100,7 @@ video {
   color: #767b83;
 }
 
-.carousel-item img {
+.carousel-index {
   height: 315px;
 }
 
@@ -136,4 +136,55 @@ video {
 
 #footer-text {
   color: #ffffff;
+}
+
+/* Product Page */
+
+#border-container {
+  border: 1px ridge #767b83;
+  padding: 1rem;
+  border-radius: .25rem;
+}
+
+#fa-heart-product{
+  color: #8c52ff;
+}
+
+.price, #model-product, #list-features {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+#bg-announcement {
+  border-radius: .25rem;
+  background-color: #767b83;
+  color: #ffffff;
+}
+
+#price-02 {
+  margin-top: -.8rem;
+  margin-left: .5rem;
+  font-style: italic;
+}
+
+#price-02 > .ms-1 {
+  color: #767b83;
+}
+
+#btn-1 {
+  width: 100%;
+  height: 3rem;
+  border-radius: .25rem;
+  background-color: #8c52ff;
+  color: #ffffff;
+  font-size: large;
+  border-color: #767b83;
+}
+
+#btn-2 {
+  width: 100%;
+  height: 3rem;
+  border-radius: .25rem;
+  background-color: #767b83;
+  color: #ffffff;
+  font-size: large;
 }
